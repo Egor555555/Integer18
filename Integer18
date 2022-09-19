@@ -5,8 +5,8 @@ void Solve()
 {
 Task("Integer18");
 int a,b;
-pt » a;
+pt >> a;
 b = a / 1000;
-pt « b % 10;
+pt << b % 10;
 
 }
