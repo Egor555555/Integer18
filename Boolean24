@@ -5,12 +5,12 @@ void Solve()
 {
 Task("Boolean24");
 float a, b, c;
-pt » a » b » c;
+pt >> a >> b >> c;
 if (((b * b) - (4 * a * c)) >= 0) {
-pt « true;
+pt << true;
 }
 else {
-pt « false;
+pt << false;
 }
 
 }
