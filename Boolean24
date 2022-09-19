@@ -1,0 +1,17 @@
+#include "pt4.h"
+using namespace std;
+
+void Solve()
+{
+Task("Boolean24");
+float a, b, c;
+pt » a » b » c;
+bool d;
+if (((b * b) - (4 * a * c)) >= 0) {
+pt « true;
+}
+else {
+pt « false;
+}
+
+}
