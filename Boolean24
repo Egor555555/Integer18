@@ -1,16 +1,14 @@
+//Даны числа A, B, C (число A не равно 0). 
+//Рассмотрев дискриминант D = B^2 − 4·A·C, проверить истинность высказывания: «Квадратное уравнение A·x^2 + B·x + C = 0 имеет вещественные корни».
 #include "pt4.h"
 using namespace std;
 
 void Solve()
 {
-Task("Boolean24");
-float a, b, c;
-pt >> a >> b >> c;
-if (((b * b) - (4 * a * c)) >= 0) {
-pt << true;
-}
-else {
-pt << false;
-}
-
+    Task("Boolean24");
+    float a, b, c;
+    bool z = false;
+    pt >> a >> b >> c;
+    if (((b * b) - (4 * a * c)) >= 0) z = true;
+    pt << z;
 }
